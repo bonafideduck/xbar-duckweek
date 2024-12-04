@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# <xbar.title>Duck Week</xbar.title>
+# <xbar.title>Duck Time</xbar.title>
 # <xbar.version>v1.0</xbar.version>
 # <xbar.author>Mark Eklund</xbar.author>
 # <xbar.author.github>bonafideduck</xbar.author.github>
@@ -15,7 +15,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 import subprocess
 
-config_path = Path.home() / ".config" / "xbar-duckweek" / "config.json"
+config_path = Path.home() / ".config" / "xbar-ducktime" / "config.json"
 
 # Ensure the config directory exists
 config_path.parent.mkdir(parents=True, exist_ok=True)
